@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-[#f5f5dc] text-[#2e2e2e]">
+  <header class="p-4 bg-white shadow">
+    <h1 class="text-2xl font-bold text-[#a08f76]">Checkout</h1>
+  </header>
+  <main class="p-6 max-w-md mx-auto">
+    <form id="checkout-form" class="space-y-4">
+      <input type="text" placeholder="Full Name" name="name" class="w-full p-2 border rounded" required />
+      <input type="email" placeholder="Email" name="email" class="w-full p-2 border rounded" required />
+      <textarea placeholder="Address" name="address" class="w-full p-2 border rounded" required></textarea>
+      <div style="text-align:center;">
+      <button type="submit" style="display:inline-block; background-color:#a08f76; color:#231709; font-weight:600; padding:0.75rem 1.5rem; border-radius:0.5rem; box-shadow:0 2px 6px rgba(0,0,0,0.15); transition:all 0.2s ease; border:none; cursor:pointer;">Confirm Purchase</button></div>
+    </form>
+  </main>
+  <script src="js/checkout.js"></script>
+</body>
+</html>

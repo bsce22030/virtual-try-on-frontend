@@ -1,0 +1,1 @@
+open this website by clicking on index.html in file explorer. the products are stored in session untill you checkout and then the checkout will refresh.
